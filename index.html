@@ -1,13 +1,381 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Enterprise Construction Inc.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Enterprise Construction Inc.</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/enterprise.css">
+
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rd-smoothscroll.min.js"></script>
+
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
 </head>
 <body>
-<i>Construction Excellence through Efficiency and Quality</i>
-<h1>Enterprise Construction Inc.</h1>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <nav class="navbar navbar-default navbar-static-top ">
+                <div class="container">
+                    <div class="navbar-header">
+                        <h1 class="navbar-brand">
+                            <span>E</span>nterprise <span>C</span>onstruction <span>I</span>nc.
+                        </h1>
+                    </div>
+
+                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="sub-contracting.html">Sub-Contracting</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="jobs.html">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="https://enterpriseconst.remotewebaccess.com">Employee Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section>
+                <div class="container">
+                    <div class="sform">
+                        <a class="search-form_toggle" href="#"></a>
+
+                        <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+                            <label class="search-form_label">
+                                <input class="search-form_input" type="text" name="s" autocomplete="off"
+                                       placeholder="Search"/>
+                                <span class="search-form_liveout"></span>
+                            </label>
+                            <button class="search-form_submit fa-search" type="submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <section class="camera_container">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    <p class="head">
+                        We are the leaders
+              <span>
+                in the construction industry
+              </span>
+                    </p>
+
+                    <p class="ins1">
+                        Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus ac sapien dictum
+                        tempus. Nam blandit sed ligula fa
+                        ucibus elementum. Sed sed consequat nisi. Etiam mauris massa, sodales lobortis tortor id, dictum
+                        sollicitudin felis. Vestibulum tristique urna ex, eu vehicula magna mattis maximus. Aliquam ut
+                        leo
+                        ultricies
+                    </p>
+                </div>
+            </div>
+            <div id="camera" class="camera_wrap">
+                <div data-src="images/slide3.jpg">
+                    <div class="camera_caption fadeIn">
+
+                    </div>
+                </div>
+                <div data-src="images/slide2.jpg">
+                    <div class="camera_caption fadeIn">
+
+                    </div>
+                </div>
+                <div data-src="images/slide1.jpg">
+                    <div class="camera_caption fadeIn">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
 
 
-  
+    <main>
+
+        <section class="well well1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".9s">
+
+                        <img src="images/page-1_img1.png" alt=""/>
+                        <h5 class="ins_r">
+                            Project
+                            Management
+                        </h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".7s">
+
+                        <img src="images/page-1_img2.png" alt=""/>
+                        <h5 class="ins_r">
+                            Building
+                            Innovation
+                        </h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".5s">
+
+                        <img src="images/page-1_img3.png" alt=""/>
+                        <h5 class="ins_r">
+                            Inspection
+                            & Testing
+                        </h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".3s">
+
+                        <img src="images/page-1_img4.png" alt=""/>
+                        <h5 class="ins_r">
+                            New
+                            Technologies
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="well well2 parallax text-center" data-url="images/parallax1.jpg" data-mobile="true"
+                 data-speed="0.6">
+            <div class="container">
+                <h2 class="fw-l">
+                    Striving to excellence<br/>
+                    in service we provide
+                </h2>
+
+                <p class="white ins1 offs1">
+                    Sed eleifend ornare metus, non rhoncus elit ultrices quis. Curabitur et metus acsapien dict
+                    um tempus. Nam blandit sed ligula faucibus elementum. Sed sed consequat nisi. Etiam mauris massa,
+                    sodales lobortis tortor id, dictum sollicitudin feli
+                </p>
+            </div>
+        </section>
+        <section class="ang_block bg-primary text-center wow fadeIn" data-wow-duration="1.5s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-3 col-xs-6">
+
+                        <em>
+                            150
+                        </em>
+
+                        <p>
+                            recent projects
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-3 col-xs-6">
+
+                        <em>
+                            4
+                        </em>
+
+                        <p>
+                            awards
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="well well3">
+            <div class="container">
+                <h3 class="text-center">
+                    Our Services
+                </h3>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay=".7s">
+                        <div class="thumbnail thumbnail4">
+                            <img src="images/page-1_img5.jpg" alt="">
+
+                            <div class="caption">
+
+                                <p>
+                                  We offer detailed, high quality work with competitive prices and a record of hundreds of completed public projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay=".5s">
+                        <div class="thumbnail thumbnail4">
+                            <img src="images/page-1_img6.jpg" alt="">
+
+                            <div class="caption">
+
+                                <p>
+                                We are a General Building and Engineering company with class A, B, C8, and C12 licenses, specializing in site improvement and development projects in all areas of excavation, grading, asphalt and concrete paving, hardscape, and site access compliance works.
+                                  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay=".3s">
+                        <div class="thumbnail thumbnail4">
+                            <img src="images/page-1_img7.jpg" alt="">
+
+                            <div class="caption">
+
+                                <p>
+                                   In addition, as a medium-sized company, we have the flexibility of working closely with our clients and their needs. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="well well5">
+            <div class="container">
+                <h3 class="text-center">
+                    Why Choose Us?
+                </h3>
+
+                <div class="row">
+
+                    <ul class="icon-list wow fadeInLeft" data-wow-duration="2s">
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Perfect Experience
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Very Competitive Rates
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Satisfaction Guatantee
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Honest and Dependable
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Safety & Reliability
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                        <li class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>
+                                <a>
+                                    Superior Quality
+                                </a>
+                            </h6>
+                            <br/>
+                            <br/>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="map">
+            <div id="google-map" class="map_model"></div>
+            <ul class="map_locations">
+                <li data-x="34.142743" data-y="-118.747215">
+                    <p> 28436 Roadside Dr, Agoura Hills, CA 91301 <span>818 879-5222</span></p>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+    <footer>
+        <section  class="well_foot-2">
+            <div class="container">
+                <div class="rights">
+                    <h1><span>E</span>nterprise <span>C</span>onstruction <span>I</span>nc.</h1> &#169; <span id="copyright-year"></span>&nbsp;
+                    <a href="index-5.html">      Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+
 </body>
 </html>

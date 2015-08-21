@@ -51,49 +51,22 @@
 
                     <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
                         <li>
-                            <a href="./">Home</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="index-1.html">About</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Aliuam congu </a>
-                                </li>
-                                <li>
-                                    <a href="#">Ferentum nisl </a>
-                                </li>
-                                <li>
-                                    <a href="#">Mauris accan </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">Aliuam congu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Ferentum nisl</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Mauris accan </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Nullavel diam</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Nullavel diam</a>
-                                </li>
-
-                            </ul>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="index-2.html">Services</a>
+                            <a href="about.html">About Us</a>
                         </li>
                         <li>
-                            <a href="index-3.html">Projects</a>
+                            <a href="sub-contracting.html">Sub-Contracting</a>
                         </li>
-
                         <li>
-                            <a href="index-4.html">Contacts</a>
+                            <a href="FAQ.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="jobs.html">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="https://enterpriseconst.remotewebaccess.com">Employee Sign In</a>
                         </li>
                     </ul>
                 </div>
@@ -140,7 +113,6 @@
           <div class="container">
               <div class="rights">
                   <h1><span>E</span>nterprise <span>C</span>onstruction <span>I</span>nc.</h1> &#169; <span id="copyright-year"></span>&nbsp;
-                  <a href="index-5.html">      Privacy Policy</a>
               </div>
           </div>
       </section>
